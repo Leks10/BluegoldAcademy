@@ -1,0 +1,188 @@
+.navbar {
+
+}
+
+/* Common styles for both main page and map page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar a {
+    float: left;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 10px; /* Add spacing between navigation links if needed */
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+        /* Specify a different margin for "Courses" to the left */
+.navbar a[href="courses.html"] {
+            margin-left: 50px; /* Add space to the left of "Courses" */
+        }
+
+        /* Specify a different margin for "Courses" to the left */
+.navbar a[href="index.html"] {
+            margin-left: 250px; /* Add space to the left of "Courses" */
+        }
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: #4285f4;
+    margin: 0;
+    padding: 25px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    line-height: 1.6;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.button {
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.welcome-container {
+    height: 600px;
+    width: 600px;
+    padding: 150px 100px 100px 550px;
+}
+
+.button-container {
+    padding-left: 150px;
+}
+
+.plan-column {
+  float: left;
+  width: 25%;
+  height: 400px;
+}
+
+.plan-desc {
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.enrol-button {
+  border: none;
+  color: black;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.Plan-list-container {
+    height: 1000px;
+    background-color: red;
+
+}
+
+/* Course member section */
+.course-list {
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.course-member {
+    width: 25%; 
+    margin: 20px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 12px;
+}
+
+.course-member img {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.course {
+    color: black;
+    font-size: 12px;
+}
+
+.about-us-p {
+    color: black;
+}
+
+.about-us-container {
+    height: 600px;
+   
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.about-us-member {
+    width: 25%; 
+    margin: 20px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 12px;
+}
+
+.about-us-member img {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+    margin-bottom: 10px;
